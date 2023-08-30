@@ -8,5 +8,6 @@ namespace Tests
 {
     public class GameTests
     {
+        //test
     }
 }
