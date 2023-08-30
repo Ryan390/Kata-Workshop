@@ -1,0 +1,6 @@
+C:\Users\RobinsonR\source\repos\Bowling Kata\bin\Debug\Bowling Kata.dll
+C:\Users\RobinsonR\source\repos\Bowling Kata\bin\Debug\Bowling Kata.pdb
+C:\Users\RobinsonR\source\repos\Bowling Kata\obj\Debug\Bowling Kata.csproj.AssemblyReference.cache
+C:\Users\RobinsonR\source\repos\Bowling Kata\obj\Debug\Bowling Kata.csproj.CoreCompileInputs.cache
+C:\Users\RobinsonR\source\repos\Bowling Kata\obj\Debug\Bowling Kata.dll
+C:\Users\RobinsonR\source\repos\Bowling Kata\obj\Debug\Bowling Kata.pdb
