@@ -1,0 +1,12 @@
+.vs/
+.vscode/
+packages/
+Tests/bin
+Tests/obj
+src/Website/Website.csproj.user
+node_modules/
+Bowling Kata.sln.DotSettings.user
+
+dev-dynamo
+*.user
+tools/.nuget/NuGet.exe

@@ -5,20 +5,35 @@ namespace Tests
     [TestFixture]
     public class GameTests
     {
-        [Test]
-        public void canRoll()
-        {
-            var newGame = new Game();
-            newGame.Roll();
-            Assert.Pass();
-        }
-    }
+        private Game _game;
 
-    public class Game
-    {
-        public void Roll()
+        [SetUp]
+        public void Setup()
         {
-            
+            _game = new Game();
         }
+
+        [Test]
+        public void RollingAOne()
+        {
+            _game.Roll(1);
+            Assert.AreEqual(1, _game.Score());
+        }
+
+        [Test]
+        public void RollingAThree()
+        {
+            _game.Roll(3);
+            Assert.AreEqual(3, _game.Score());
+        }
+
+        //[Test]
+        //public void RollingASpare()
+        //{
+        //    _game.Roll(1);
+        //    _game.Roll(9);
+        //    _game.Roll(2);
+        //    Assert.AreEqual(14, _game.Score());
+        //}
     }
 }
