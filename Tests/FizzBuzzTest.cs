@@ -22,7 +22,7 @@ namespace Tests
     {
         public void Calculate()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
