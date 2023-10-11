@@ -1,0 +1,9 @@
+C:\Source\github\Kata-Workshop\Tests\bin\Debug\Tests.dll
+C:\Source\github\Kata-Workshop\Tests\bin\Debug\Tests.pdb
+C:\Source\github\Kata-Workshop\Tests\bin\Debug\nunit.framework.dll
+C:\Source\github\Kata-Workshop\Tests\bin\Debug\nunit.framework.xml
+C:\Source\github\Kata-Workshop\Tests\obj\Debug\Tests.csproj.AssemblyReference.cache
+C:\Source\github\Kata-Workshop\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+C:\Source\github\Kata-Workshop\Tests\obj\Debug\Tests.csproj.CopyComplete
+C:\Source\github\Kata-Workshop\Tests\obj\Debug\Tests.dll
+C:\Source\github\Kata-Workshop\Tests\obj\Debug\Tests.pdb
