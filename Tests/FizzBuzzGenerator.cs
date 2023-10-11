@@ -2,9 +2,9 @@
 {
     internal class FizzBuzzGenerator
     {
-        public void Calculate()
+        public int Calculate(int UserInput)
         {
-            
+            return UserInput;
         }
     }
 }

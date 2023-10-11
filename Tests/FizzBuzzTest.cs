@@ -2,7 +2,7 @@
 
 namespace Tests
 {
-
+    [TestFixture]
     internal class FizzBuzzTest
     {
         private FizzBuzzGenerator _buzzGenerator;
@@ -13,10 +13,21 @@ namespace Tests
         }
 
         [Test]
-        public void CanFizzBuzz()
+        public void CanHandleAOne()
         {
-            _buzzGenerator = new FizzBuzzGenerator();
-            _buzzGenerator.Calculate();
+            var result = _buzzGenerator.Calculate(1);
+            Assert.AreEqual(1, result);
+        }
+
+        [TestCase(1, 1)]
+        [TestCase(2, 2)]
+        [TestCase(4, 4)]
+        [TestCase(7, 7)]
+        [TestCase(8, 8)]
+        public void CanHandleMultipleNumbers(int testInput, int expectedResult)
+        {
+            var result = _buzzGenerator.Calculate(testInput);
+            Assert.AreEqual(expectedResult, result);
         }
     }
 }
