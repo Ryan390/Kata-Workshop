@@ -2,9 +2,19 @@
 {
     internal class FizzBuzzGenerator
     {
-        public int Calculate(int UserInput)
+        public string Calculate(int userInput)
         {
-            return UserInput;
+            if(IsDivisibleBy3(userInput))
+            {
+                return "Fizz";
+            }
+
+            return userInput.ToString();
+        }
+
+        private bool IsDivisibleBy3(int userInput)
+        {
+            return userInput % 3 == 0;
         }
     }
 }
