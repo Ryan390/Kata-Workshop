@@ -30,11 +30,27 @@ namespace Tests
             Assert.AreEqual(expectedResult, result);
         }
 
-        [Test]
 
         [TestCase(3, "Fizz")]
         [TestCase(6, "Fizz")]
         public void CanHandleFizzNumbers(int testInput, string expectedResult)
+        {
+            var result = _buzzGenerator.Calculate(testInput);
+            Assert.AreEqual(expectedResult, result);
+        }
+
+
+        [TestCase(35, "Buzz")]
+        [TestCase(10, "Buzz")]
+        public void CanHandleBuzzNumbers(int testInput, string expectedResult)
+        {
+            var result = _buzzGenerator.Calculate(testInput);
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [TestCase(15, "FizzBuzz")]
+        [TestCase(30, "FizzBuzz")]
+        public void CanHandleFizzBuzzNumbers(int testInput, string expectedResult)
         {
             var result = _buzzGenerator.Calculate(testInput);
             Assert.AreEqual(expectedResult, result);
